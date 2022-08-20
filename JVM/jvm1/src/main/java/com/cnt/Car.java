@@ -12,6 +12,10 @@ public class Car {
 
         Class<? extends Car> aClass1 = car1.getClass();
         System.out.println(aClass1.hashCode());
+        Class<? extends Car> aClass2 = car2.getClass();
+        System.out.println(aClass2.hashCode());
+        Class<? extends Car> aClass3 = car3.getClass();
+        System.out.println(aClass3.hashCode());
 
         ClassLoader classLoader = aClass1.getClassLoader();
         System.out.println(classLoader); //sun.misc.Launcher$AppClassLoader@18b4aac2
